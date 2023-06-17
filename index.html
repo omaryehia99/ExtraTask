@@ -12,13 +12,14 @@
     <div class="container">
         <div class="section1">
             <div class="heading">
-        <div class="nav-wrapper d-flex justify-content-between">
+        <div class="nav-wrapper">
             <div class="logo">CompanyLogo</div>
          <div class="navbar">
             <div class="home">
             <span>Home</span>
             <span>Product</span>
             <span>Pricing</span>
+            <span>Contact</span>
             </div>
             <div class="icons">
             <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -30,7 +31,7 @@
         </div>
         <div class="menu">
             <svg width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0.571472 0H23.4286V2.28571H0.571472V0ZM6.28576 5.71429H23.4286V8H6.28576V5.71429ZM13.4286 11.4286H23.4286V13.7143H13.4286V11.4286Z" fill="white"/>
+                <path d="M0.571472 0H23.4286V2.28571H0.571472V0ZM6.28576 5.71429H23.4286V8H6.28576V5.71429ZM13.4286 11.4286H23.4286V13.7143H13.4286V11.4286Z" fill="currentColor"/>
                 </svg>
         </div>
         </div>
@@ -38,10 +39,10 @@
         <div class="content-wrapper">
             <div class="row">
                 <div class="heading-wrapper">
-                    <h2>
+                    <h1>
                         Experts are here solve<br>
                         your business problem.
-                    </h2>
+                    </h1>
                     <p>We know how large objects will act, but things on a <br>
                         small scale just do not act that way.</p>
                         <div class="buttons d-flex justify-content-center">
@@ -324,10 +325,15 @@
         <div class="section-content">
         <div class="row">
             <div class="section-tit-desc">
-                <div class="title">
+                <div class="title" id="content-desktop">
                 <h2>We are providing best <br>
                     business service.</h2>
                 </div>
+                <div class="title" id="content-mobile">
+                    <h2>We take care <br>
+                        customers our <br>
+                        all expert here.</h2>
+                    </div>
                 <div class="description">
                     <p>Problems trying to resolve the conflict between the two major realms<br>
                         of Classical physics: Newtonian mechanics </p>
@@ -592,9 +598,12 @@
     <div class="footer">
     <div class="contact-card">
         <div class="contact-form">
-            <div class="image-wrapper">
+            <div class="image-wrapper" id="content-desktop">
                 <img src="assets\images\media.png" alt="" class="">
             </div>
+            <div class="image-wrapper" id="content-mobile">
+                <img src="assets\images\mobileMeeting.png" alt="">
+                </div>
             <div class="content-form">
                 <div class="title">
                 <h2>Get A Free Quote Here</h2>
